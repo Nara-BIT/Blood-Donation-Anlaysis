@@ -125,6 +125,11 @@ Below are example screenshots you can add to showcase the app UI and visualizati
 
 *Caption: Example exploratory plots (boxplots, histograms, correlation heatmap) used during EDA and feature engineering.*
 
+<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/a752fbdb-e75f-4821-ba6e-1f7804fbe9ab" />
+<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/5e249cee-7810-4737-bf94-908ff6ab382b" />
+<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/9a76c4e2-75c0-4f7d-bf56-14a3d0d435f7" />
+
+
 
 How to add your screenshots
 
