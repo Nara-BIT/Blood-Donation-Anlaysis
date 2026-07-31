@@ -78,74 +78,30 @@ Example response:
 - Run the scripts from the project root so the CSV and model paths resolve correctly.
 - If you retrain the model, the `.joblib` files will be overwritten with the new artifacts.
 
-## UI
+## UI Screenshots
 
 The application provides an interactive web interface for blood donation predictions. Below are screenshots showcasing the prediction interface:
 
 ### Prediction Example 1: "Will Not Donate"
 
-![Prediction Example 1](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_1.png)
+<img width="925" height="755" alt="WhatsApp Image 2026-07-31 at 11 32 20 AM" src="https://github.com/user-attachments/assets/511359dd-4124-409e-929a-619f8ab78c9d" />
+
 
 *Input: Months since last donation: 12, Number of donations: 23, Total volume donated: 12500 cc, Months since first donation: 9*
 *Result: Will Not Donate*
 
 ### Prediction Example 2: "Will Donate"
 
-![Prediction Example 2](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_2.png)
+<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/b33d33ce-ccf7-4d3e-b8a9-de625cf89b20" />
+
 
 *Input: Months since last donation: 2, Number of donations: 20, Total volume donated: 5000 cc, Months since first donation: 45*
 *Result: Will Donate*
 
 ### Prediction Example 3: "Will Donate" (High Frequency Donor)
 
-![Prediction Example 3](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_3.png)
+<img width="1471" height="893" alt="WhatsApp Image 2026-07-31 at 11 32 06 AM" src="https://github.com/user-attachments/assets/914b30c7-86e3-497f-bc8f-2393b08f36e5" />
 
 *Input: Months since last donation: 2, Number of donations: 50, Total volume donated: 12500 cc, Months since first donation: 98*
 *Result: Will Donate*
 
-## Screenshots
-
-Below are example screenshots you can add to showcase the app UI and visualizations. The image files are referenced from the `screenshots/` directory — add your PNGs there with the filenames use[...]
-
-### Prediction API (example request/response)
-
-![API prediction example](screenshots/api_prediction.png)
-
-*Caption: Example curl request and the JSON response returned by the Flask `/predict` endpoint.*
-
-### Gradio Demo / Input Form
-
-![Gradio input form](screenshots/gradio_input.png)
-
-*Caption: Example of the demo input form (from workbook.py) where the user enters features to get a prediction.*
-
-### Visualizations
-
-![Feature distribution and correlations](screenshots/visualizations.png)
-
-*Caption: Example exploratory plots (boxplots, histograms, correlation heatmap) used during EDA and feature engineering.*
-
-<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/a752fbdb-e75f-4821-ba6e-1f7804fbe9ab" />
-<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/5e249cee-7810-4737-bf94-908ff6ab382b" />
-<img width="950" height="762" alt="WhatsApp Image 2026-07-31 at 11 32 14 AM" src="https://github.com/user-attachments/assets/9a76c4e2-75c0-4f7d-bf56-14a3d0d435f7" />
-
-
-
-How to add your screenshots
-
-1. Create a `screenshots/` directory at the project root.
-2. Save your images with these filenames (or update the README to point to your filenames):
-   - `screenshots/api_prediction.png`
-   - `screenshots/gradio_input.png`
-   - `screenshots/visualizations.png`
-3. Commit and push the images to the repository. Example git commands:
-
-```bash
-mkdir screenshots
-# copy your images into screenshots/
-git add screenshots/api_prediction.png screenshots/gradio_input.png screenshots/visualizations.png
-git commit -m "Add README screenshots"
-git push origin main
-```
-
-If you'd like, I can add the screenshots for you — upload the image files here (or give me public URLs) and tell me the branch name to use; I'll create a branch, add the images under `screensho[...]
