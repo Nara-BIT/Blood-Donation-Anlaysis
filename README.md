@@ -78,9 +78,34 @@ Example response:
 - Run the scripts from the project root so the CSV and model paths resolve correctly.
 - If you retrain the model, the `.joblib` files will be overwritten with the new artifacts.
 
+## UI
+
+The application provides an interactive web interface for blood donation predictions. Below are screenshots showcasing the prediction interface:
+
+### Prediction Example 1: "Will Not Donate"
+
+![Prediction Example 1](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_1.png)
+
+*Input: Months since last donation: 12, Number of donations: 23, Total volume donated: 12500 cc, Months since first donation: 9*
+*Result: Will Not Donate*
+
+### Prediction Example 2: "Will Donate"
+
+![Prediction Example 2](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_2.png)
+
+*Input: Months since last donation: 2, Number of donations: 20, Total volume donated: 5000 cc, Months since first donation: 45*
+*Result: Will Donate*
+
+### Prediction Example 3: "Will Donate" (High Frequency Donor)
+
+![Prediction Example 3](https://github.com/Ratnesh-3/Blood-Donation-Prediction/raw/main/ui_screenshot_3.png)
+
+*Input: Months since last donation: 2, Number of donations: 50, Total volume donated: 12500 cc, Months since first donation: 98*
+*Result: Will Donate*
+
 ## Screenshots
 
-Below are example screenshots you can add to showcase the app UI and visualizations. The image files are referenced from the `screenshots/` directory — add your PNGs there with the filenames used below, or update the paths to match your files.
+Below are example screenshots you can add to showcase the app UI and visualizations. The image files are referenced from the `screenshots/` directory — add your PNGs there with the filenames use[...]
 
 ### Prediction API (example request/response)
 
@@ -118,4 +143,4 @@ git commit -m "Add README screenshots"
 git push origin main
 ```
 
-If you'd like, I can add the screenshots for you — upload the image files here (or give me public URLs) and tell me the branch name to use; I'll create a branch, add the images under `screenshots/`, and update the README to point to them in a single commit.
+If you'd like, I can add the screenshots for you — upload the image files here (or give me public URLs) and tell me the branch name to use; I'll create a branch, add the images under `screensho[...]
