@@ -77,3 +77,45 @@ Example response:
 
 - Run the scripts from the project root so the CSV and model paths resolve correctly.
 - If you retrain the model, the `.joblib` files will be overwritten with the new artifacts.
+
+## Screenshots
+
+Below are example screenshots you can add to showcase the app UI and visualizations. The image files are referenced from the `screenshots/` directory — add your PNGs there with the filenames used below, or update the paths to match your files.
+
+### Prediction API (example request/response)
+
+![API prediction example](screenshots/api_prediction.png)
+
+*Caption: Example curl request and the JSON response returned by the Flask `/predict` endpoint.*
+
+### Gradio Demo / Input Form
+
+![Gradio input form](screenshots/gradio_input.png)
+
+*Caption: Example of the demo input form (from workbook.py) where the user enters features to get a prediction.*
+
+### Visualizations
+
+![Feature distribution and correlations](screenshots/visualizations.png)
+
+*Caption: Example exploratory plots (boxplots, histograms, correlation heatmap) used during EDA and feature engineering.*
+
+
+How to add your screenshots
+
+1. Create a `screenshots/` directory at the project root.
+2. Save your images with these filenames (or update the README to point to your filenames):
+   - `screenshots/api_prediction.png`
+   - `screenshots/gradio_input.png`
+   - `screenshots/visualizations.png`
+3. Commit and push the images to the repository. Example git commands:
+
+```bash
+mkdir screenshots
+# copy your images into screenshots/
+git add screenshots/api_prediction.png screenshots/gradio_input.png screenshots/visualizations.png
+git commit -m "Add README screenshots"
+git push origin main
+```
+
+If you'd like, I can add the screenshots for you — upload the image files here (or give me public URLs) and tell me the branch name to use; I'll create a branch, add the images under `screenshots/`, and update the README to point to them in a single commit.
